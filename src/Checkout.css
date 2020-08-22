@@ -1,0 +1,32 @@
+
+
+.app_checkout{
+    border-bottom: 1px solid lightgrey;
+}
+
+.app_checkout img{
+    padding: 10px;
+}
+.display{
+    margin-left: 60px;
+    border-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display_empty{
+    margin-left: 40%;
+    text-align: center;
+    align-items: center;
+    
+}
+.display_empty button{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.link_Home{
+    text-decoration: none;
+}

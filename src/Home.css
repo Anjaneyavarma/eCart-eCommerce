@@ -1,0 +1,28 @@
+.app_home {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.Home > p{
+   align-items: center;
+   margin-left: 80px;
+   font-size: 20px;
+   font-weight: bold;
+   color: lightsalmon;
+}
+
+.product_display{
+    margin-left: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px){
+    .product_display{
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}

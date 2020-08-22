@@ -1,0 +1,38 @@
+.app_header{
+    object-fit: contain;
+    border-bottom: 1px solid lightgrey;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.app_nav{
+    display: flex;
+}
+
+.logo{
+    width: 100px;
+    margin-right: 10px;
+    object-fit: contain;
+    justify-content: space-between;
+}
+.app_search{
+    height: 20px;
+    border: 1px solid ;
+}
+.searchIcon{
+    background-color: blue;
+}
+
+.app_header h3{
+    font-family: 'Poppins', sans-serif;
+    text-decoration:none;
+    margin-right: 15px;
+}
+.wish_icon{
+    margin-right: 15px;
+}
+.link_Signin{
+    text-decoration:none;
+}

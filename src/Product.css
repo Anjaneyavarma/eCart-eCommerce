@@ -1,0 +1,63 @@
+.product{
+    object-fit: contain;
+    padding:10px;
+    display: flex;
+}
+
+.product_container{
+    margin-right: 7px;
+    width: 210px;
+    object-fit: contain;
+    border: 1px solid lightgray;
+}
+
+.product_container img{
+    object-fit: contain;
+    align-items: center;
+}
+
+
+.product_details{
+    margin-left: 8px;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+}
+
+.product_details > p{
+    font-size: 13px;
+}
+
+.product_price{
+    display: flex;
+}
+
+.product_price > p{
+    font-size: 15px;
+    margin-right: 4px;
+}
+.product_buttons{
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+}
+
+.product_buttons > button{
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 600;
+    height: 30px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+@media only screen and (max-width: 600px){
+    .product{
+        display: flex;      
+    }
+    .product_contatiner{
+        object-fit: contain;
+        height: 1px;
+        width:10px;
+    }
+
+}
