@@ -1,6 +1,6 @@
 
 
-Sample Project View (https://e-shopping-f53fb.web.app/)
+Sample React E-Cart Project View (https://e-shopping-f53fb.web.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
